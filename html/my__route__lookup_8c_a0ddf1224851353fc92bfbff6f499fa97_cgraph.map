@@ -1,0 +1,18 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="Loop principal de nuestro algoritmo (MAIN)." alt="" coords="5,208,56,235"/>
+<area shape="rect" id="node2" href="$my__route__lookup_8c.html#a14749b33d20f17d9e1e2e5980e3ea6c6" title="Elimina y libera las tablas." alt="" coords="126,5,238,32"/>
+<area shape="rect" id="node3" href="$io_8c.html#a4eadbc0260f6f049b41b28df39620c3f" title=" " alt="" coords="154,56,210,83"/>
+<area shape="rect" id="node4" href="$io_8c.html#a2c4e644915539eb0be8aff720c463991" title=" " alt="" coords="141,107,223,133"/>
+<area shape="rect" id="node5" href="$io_8c.html#ab1cd0fa785c690962ce21b05dc4b7bb3" title=" " alt="" coords="104,157,260,184"/>
+<area shape="rect" id="node6" href="$io_8c.html#a3ed842258dba090f811c13f5d073e5f8" title=" " alt="" coords="337,157,440,184"/>
+<area shape="rect" id="node8" href="$my__route__lookup_8c.html#a6422881caacaa117761404a9a906ebf9" title="Bucle encargado de la lectura de IPs del input." alt="" coords="147,259,217,285"/>
+<area shape="rect" id="node11" href="$my__route__lookup_8c.html#ae7a0d30cbdde5924d2b6572520cf4585" title="Calcula los tiempos y imprime la informacion por pantalla." alt="" coords="141,309,223,336"/>
+<area shape="rect" id="node15" href="$my__route__lookup_8c.html#a8763a40d3a786f44513dd5d29794f7e7" title="Inicializa las tablas." alt="" coords="143,360,221,387"/>
+<area shape="rect" id="node16" href="$my__route__lookup_8c.html#af06d8c52ae4f34c8d204afa884cd80b8" title="Inicializa las variables globales." alt="" coords="153,411,211,437"/>
+<area shape="rect" id="node7" href="$io_8c.html#a4eb9e343d677a78e2fb32b5955d236e4" title=" " alt="" coords="517,233,557,260"/>
+<area shape="rect" id="node9" href="$my__route__lookup_8c.html#a6757537938363dc8ceda7a23e5f2d3e1" title="REVISAR Añade la ruta a las tablas." alt="" coords="349,208,428,235"/>
+<area shape="rect" id="node10" href="$io_8c.html#ab8e9dcbf6b74715fc73bfed10e372832" title=" " alt="" coords="343,259,434,285"/>
+<area shape="rect" id="node12" href="$io_8c.html#a7d19fa5b643e9e4793920e8f664f6639" title=" " alt="" coords="333,309,444,336"/>
+<area shape="rect" id="node13" href="$io_8c.html#aca77a9e23d49236a068e7c4c9a7e1b51" title=" " alt="" coords="308,360,469,387"/>
+<area shape="rect" id="node14" href="$my__route__lookup_8c.html#a25ec64d7de94ddeffc4e51c90fb918a2" title="REVISAR." alt="" coords="357,411,420,437"/>
+</map>

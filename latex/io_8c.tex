@@ -1,0 +1,214 @@
+\hypertarget{io_8c}{}\doxysection{Referencia del Archivo student\+\_\+source/io.c}
+\label{io_8c}\index{student\_source/io.c@{student\_source/io.c}}
+{\ttfamily \#include \char`\"{}io.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}utils.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para io.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{io_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{io_8c_a4eb9e343d677a78e2fb32b5955d236e4}{tee}} (F\+I\+LE $\ast$f, char const $\ast$fmt,...)
+\item 
+int \mbox{\hyperlink{io_8c_a2c4e644915539eb0be8aff720c463991}{initialize\+IO}} (char $\ast$routing\+Table\+Name, char $\ast$input\+File\+Name)
+\item 
+void \mbox{\hyperlink{io_8c_a4eadbc0260f6f049b41b28df39620c3f}{free\+IO}} ()
+\item 
+void \mbox{\hyperlink{io_8c_ab1cd0fa785c690962ce21b05dc4b7bb3}{print\+I\+O\+Explanation\+Error}} (int result)
+\item 
+int \mbox{\hyperlink{io_8c_ab8e9dcbf6b74715fc73bfed10e372832}{read\+F\+I\+B\+Line}} (uint32\+\_\+t $\ast$prefix, int $\ast$prefix\+Length, int $\ast$out\+Interface)
+\item 
+int \mbox{\hyperlink{io_8c_aca77a9e23d49236a068e7c4c9a7e1b51}{read\+Input\+Packet\+File\+Line}} (uint32\+\_\+t $\ast$\mbox{\hyperlink{my__route__lookup_8c_a47501ad0e34fd2b94cb4f8a0681df5bf}{I\+P\+Address}})
+\item 
+void \mbox{\hyperlink{io_8c_a7d19fa5b643e9e4793920e8f664f6639}{print\+Output\+Line}} (uint32\+\_\+t \mbox{\hyperlink{my__route__lookup_8c_a47501ad0e34fd2b94cb4f8a0681df5bf}{I\+P\+Address}}, int out\+Interface, struct timespec $\ast$initial\+Time, struct timespec $\ast$final\+Time, double $\ast$searching\+Time, int number\+Of\+Table\+Accesses)
+\item 
+void \mbox{\hyperlink{io_8c_a3ed842258dba090f811c13f5d073e5f8}{print\+Summary}} (int processed\+Packets, double average\+Table\+Accesses, double average\+Packet\+Processing\+Time)
+\item 
+void \mbox{\hyperlink{io_8c_aa7e6d9739f71440d1321d16e282047f9}{print\+Memory\+Time\+Usage}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{io_8c_a4eb9e343d677a78e2fb32b5955d236e4}\label{io_8c_a4eb9e343d677a78e2fb32b5955d236e4}} 
+\index{io.c@{io.c}!tee@{tee}}
+\index{tee@{tee}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{tee()}{tee()}}
+{\footnotesize\ttfamily void tee (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{f,  }\item[{char const $\ast$}]{fmt,  }\item[{}]{... }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 19 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{io_8c_a4eb9e343d677a78e2fb32b5955d236e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_a2c4e644915539eb0be8aff720c463991}\label{io_8c_a2c4e644915539eb0be8aff720c463991}} 
+\index{io.c@{io.c}!initializeIO@{initializeIO}}
+\index{initializeIO@{initializeIO}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{initializeIO()}{initializeIO()}}
+{\footnotesize\ttfamily int initialize\+IO (\begin{DoxyParamCaption}\item[{char $\ast$}]{routing\+Table\+Name,  }\item[{char $\ast$}]{input\+File\+Name }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 36 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{io_8c_a2c4e644915539eb0be8aff720c463991_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_a4eadbc0260f6f049b41b28df39620c3f}\label{io_8c_a4eadbc0260f6f049b41b28df39620c3f}} 
+\index{io.c@{io.c}!freeIO@{freeIO}}
+\index{freeIO@{freeIO}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{freeIO()}{freeIO()}}
+{\footnotesize\ttfamily void free\+IO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 65 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{io_8c_a4eadbc0260f6f049b41b28df39620c3f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_ab1cd0fa785c690962ce21b05dc4b7bb3}\label{io_8c_ab1cd0fa785c690962ce21b05dc4b7bb3}} 
+\index{io.c@{io.c}!printIOExplanationError@{printIOExplanationError}}
+\index{printIOExplanationError@{printIOExplanationError}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{printIOExplanationError()}{printIOExplanationError()}}
+{\footnotesize\ttfamily void print\+I\+O\+Explanation\+Error (\begin{DoxyParamCaption}\item[{int}]{result }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 77 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=271pt]{io_8c_ab1cd0fa785c690962ce21b05dc4b7bb3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_ab8e9dcbf6b74715fc73bfed10e372832}\label{io_8c_ab8e9dcbf6b74715fc73bfed10e372832}} 
+\index{io.c@{io.c}!readFIBLine@{readFIBLine}}
+\index{readFIBLine@{readFIBLine}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{readFIBLine()}{readFIBLine()}}
+{\footnotesize\ttfamily int read\+F\+I\+B\+Line (\begin{DoxyParamCaption}\item[{uint32\+\_\+t $\ast$}]{prefix,  }\item[{int $\ast$}]{prefix\+Length,  }\item[{int $\ast$}]{out\+Interface }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 113 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{io_8c_ab8e9dcbf6b74715fc73bfed10e372832_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_aca77a9e23d49236a068e7c4c9a7e1b51}\label{io_8c_aca77a9e23d49236a068e7c4c9a7e1b51}} 
+\index{io.c@{io.c}!readInputPacketFileLine@{readInputPacketFileLine}}
+\index{readInputPacketFileLine@{readInputPacketFileLine}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{readInputPacketFileLine()}{readInputPacketFileLine()}}
+{\footnotesize\ttfamily int read\+Input\+Packet\+File\+Line (\begin{DoxyParamCaption}\item[{uint32\+\_\+t $\ast$}]{I\+P\+Address }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 137 del archivo io.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{io_8c_aca77a9e23d49236a068e7c4c9a7e1b51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_a7d19fa5b643e9e4793920e8f664f6639}\label{io_8c_a7d19fa5b643e9e4793920e8f664f6639}} 
+\index{io.c@{io.c}!printOutputLine@{printOutputLine}}
+\index{printOutputLine@{printOutputLine}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{printOutputLine()}{printOutputLine()}}
+{\footnotesize\ttfamily void print\+Output\+Line (\begin{DoxyParamCaption}\item[{uint32\+\_\+t}]{I\+P\+Address,  }\item[{int}]{out\+Interface,  }\item[{struct timespec $\ast$}]{initial\+Time,  }\item[{struct timespec $\ast$}]{final\+Time,  }\item[{double $\ast$}]{searching\+Time,  }\item[{int}]{number\+Of\+Table\+Accesses }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 165 del archivo io.\+c.
+
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=229pt]{io_8c_a7d19fa5b643e9e4793920e8f664f6639_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=335pt]{io_8c_a7d19fa5b643e9e4793920e8f664f6639_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_a3ed842258dba090f811c13f5d073e5f8}\label{io_8c_a3ed842258dba090f811c13f5d073e5f8}} 
+\index{io.c@{io.c}!printSummary@{printSummary}}
+\index{printSummary@{printSummary}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{printSummary()}{printSummary()}}
+{\footnotesize\ttfamily void print\+Summary (\begin{DoxyParamCaption}\item[{int}]{processed\+Packets,  }\item[{double}]{average\+Table\+Accesses,  }\item[{double}]{average\+Packet\+Processing\+Time }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 200 del archivo io.\+c.
+
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=223pt]{io_8c_a3ed842258dba090f811c13f5d073e5f8_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=231pt]{io_8c_a3ed842258dba090f811c13f5d073e5f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{io_8c_aa7e6d9739f71440d1321d16e282047f9}\label{io_8c_aa7e6d9739f71440d1321d16e282047f9}} 
+\index{io.c@{io.c}!printMemoryTimeUsage@{printMemoryTimeUsage}}
+\index{printMemoryTimeUsage@{printMemoryTimeUsage}!io.c@{io.c}}
+\doxysubsubsection{\texorpdfstring{printMemoryTimeUsage()}{printMemoryTimeUsage()}}
+{\footnotesize\ttfamily void print\+Memory\+Time\+Usage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definición en la línea 215 del archivo io.\+c.
+
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{io_8c_aa7e6d9739f71440d1321d16e282047f9_cgraph}
+\end{center}
+\end{figure}

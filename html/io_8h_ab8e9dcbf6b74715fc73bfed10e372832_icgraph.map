@@ -1,0 +1,5 @@
+<map id="readFIBLine" name="readFIBLine">
+<area shape="rect" id="node1" title=" " alt="" coords="223,5,313,32"/>
+<area shape="rect" id="node2" href="$my__route__lookup_8h.html#a6422881caacaa117761404a9a906ebf9" title="Bucle encargado de la lectura de IPs del input." alt="" coords="104,5,175,32"/>
+<area shape="rect" id="node3" href="$my__route__lookup_8c.html#a0ddf1224851353fc92bfbff6f499fa97" title="Loop principal de nuestro algoritmo (MAIN)." alt="" coords="5,5,56,32"/>
+</map>

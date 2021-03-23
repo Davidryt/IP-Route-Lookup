@@ -1,0 +1,337 @@
+\hypertarget{my__route__lookup_8h}{}\doxysection{Referencia del Archivo student\+\_\+source/my\+\_\+route\+\_\+lookup.h}
+\label{my__route__lookup_8h}\index{student\_source/my\_route\_lookup.h@{student\_source/my\_route\_lookup.h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Dependencia gráfica adjunta para my\+\_\+route\+\_\+lookup.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{my__route__lookup_8h__incl}
+\end{center}
+\end{figure}
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{my__route__lookup_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Estructuras de datos}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_kit_tablas}{Kit\+Tablas}}
+\begin{DoxyCompactList}\small\item\em Estructura que almacena las 2 tablas principales, así como 2 indices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{struct_kit_tablas}{Kit\+Tablas}} \mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}}
+\begin{DoxyCompactList}\small\item\em Estructura que almacena las 2 tablas principales, así como 2 indices. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{my__route__lookup_8h_af06d8c52ae4f34c8d204afa884cd80b8}{Var\+Init}} ()
+\begin{DoxyCompactList}\small\item\em Inicializa las variables globales. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_ab0d915b11e7a3802d9a60edb7c218d62}{Tablas\+Init}} (\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$tabla)
+\begin{DoxyCompactList}\small\item\em Inicializa las tablas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_ad96bd166f3f6d7ce5de7a2a8f505c43f}{Delete\+All\+Tables}} (\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$tablas)
+\begin{DoxyCompactList}\small\item\em Elimina y libera las tablas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_ae78aeb8a794e89cc7fc9d40e7a7d2ec4}{Search}} (int $\ast$accesoextra, \mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$tablas, uint32\+\_\+t $\ast$I\+P\+To\+Search, unsigned int $\ast$intf2)
+\begin{DoxyCompactList}\small\item\em R\+E\+V\+I\+S\+AR. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_a6422881caacaa117761404a9a906ebf9}{Read\+I\+Ps}} ()
+\begin{DoxyCompactList}\small\item\em Bucle encargado de la lectura de I\+Ps del input. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_ae7a0d30cbdde5924d2b6572520cf4585}{Set\+Routes}} ()
+\begin{DoxyCompactList}\small\item\em Calcula los tiempos y imprime la informacion por pantalla. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{my__route__lookup_8h_a4027bb0ee228612717529e4d7177424a}{Add\+Route}} (\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$tablas, uint32\+\_\+t $\ast$I\+P\+To\+Add, int $\ast$\mbox{\hyperlink{my__route__lookup_8c_a4efb9ef8062cf93ee03645c3e759c9ae}{mascara}}, int $\ast$intf3)
+\begin{DoxyCompactList}\small\item\em R\+E\+V\+I\+S\+AR Añade la ruta a las tablas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentación de los \textquotesingle{}typedefs\textquotesingle{}}
+\mbox{\Hypertarget{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}\label{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!Tablas@{Tablas}}
+\index{Tablas@{Tablas}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{Tablas}{Tablas}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{struct_kit_tablas}{Kit\+Tablas}} \mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}}}
+
+
+
+Estructura que almacena las 2 tablas principales, así como 2 indices. 
+
+
+
+\doxysubsection{Documentación de las funciones}
+\mbox{\Hypertarget{my__route__lookup_8h_af06d8c52ae4f34c8d204afa884cd80b8}\label{my__route__lookup_8h_af06d8c52ae4f34c8d204afa884cd80b8}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!VarInit@{VarInit}}
+\index{VarInit@{VarInit}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{VarInit()}{VarInit()}}
+{\footnotesize\ttfamily void Var\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Inicializa las variables globales. 
+
+Reservamos memoria de nuestras variables Paquetes\+OK, Accesos, Tiempo\+Total. Inicializamos la variable de Error a 0 (Sin error)
+
+Definición en la línea 109 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=198pt]{my__route__lookup_8h_af06d8c52ae4f34c8d204afa884cd80b8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_ab0d915b11e7a3802d9a60edb7c218d62}\label{my__route__lookup_8h_ab0d915b11e7a3802d9a60edb7c218d62}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!TablasInit@{TablasInit}}
+\index{TablasInit@{TablasInit}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{TablasInit()}{TablasInit()}}
+{\footnotesize\ttfamily void Tablas\+Init (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$}]{All\+Tables }\end{DoxyParamCaption})}
+
+
+
+Inicializa las tablas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em tabla} & Estructura que va a ser inicializada\\
+\hline
+\end{DoxyParams}
+Para la tabla principal, reservamos la memoria necesaria para su maximo valor (2$^\wedge$24) La tabla auxiliar (no inicializada todavia) Las dos variables (indice y extensionesaux) se inicializan a valor 0 en primera instancia
+
+Definición en la línea 126 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{my__route__lookup_8h_ab0d915b11e7a3802d9a60edb7c218d62_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_ad96bd166f3f6d7ce5de7a2a8f505c43f}\label{my__route__lookup_8h_ad96bd166f3f6d7ce5de7a2a8f505c43f}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!DeleteAllTables@{DeleteAllTables}}
+\index{DeleteAllTables@{DeleteAllTables}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{DeleteAllTables()}{DeleteAllTables()}}
+{\footnotesize\ttfamily void Delete\+All\+Tables (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$}]{All\+Tables }\end{DoxyParamCaption})}
+
+
+
+Elimina y libera las tablas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em tablas} & Estructura que va a ser eliminada\\
+\hline
+\end{DoxyParams}
+Liberamos la memoria de las dos tablas generadas (main y aux)
+
+Definición en la línea 138 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=238pt]{my__route__lookup_8h_ad96bd166f3f6d7ce5de7a2a8f505c43f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_ae78aeb8a794e89cc7fc9d40e7a7d2ec4}\label{my__route__lookup_8h_ae78aeb8a794e89cc7fc9d40e7a7d2ec4}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!Search@{Search}}
+\index{Search@{Search}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{Search()}{Search()}}
+{\footnotesize\ttfamily void Search (\begin{DoxyParamCaption}\item[{int $\ast$}]{accesoextra,  }\item[{\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$}]{All\+Tables,  }\item[{uint32\+\_\+t $\ast$}]{I\+P\+To\+Search,  }\item[{unsigned int $\ast$}]{intf2 }\end{DoxyParamCaption})}
+
+
+
+R\+E\+V\+I\+S\+AR. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em tablas} & Estructura utilizada en la busqueda \\
+\hline
+{\em I\+P\+To\+Search} & IP sobre la cual se obtiene interfaz \\
+\hline
+{\em accesoextra} & Nos indica a cuantas tablas accedemos en la busqueda (1 o 2) \\
+\hline
+{\em intf2} & Interfaz a calcular\\
+\hline
+\end{DoxyParams}
+Este metodo realiza la busqueda de cierta IP previamente insertada en las Tablas y cuantidfica el numero de accesosRecortamos el valor que se encuentre en la tabla principal para esa IP (Usamos un shift de 8 para recortar la IP de 32 a 24 ya que la tabla main solo acepta 24 bits)
+
+Para saber si pertenece o no a la tabla auxiliar, utilizabamos el bit extra de la interfaz (nº 15) para ponerlo a 0 (si no tenia tabla auxiliar correspondiente) o a 1 (Si existe tabla auziliar para este)
+
+No existe aux
+
+De encontrarse directamente en la tabla principal, 1 acceso y nada mas que hacer
+
+Sin embargo, en la auxiliar sera necesario volver a buscar, y los accesos serán 2
+
+Definición en la línea 179 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{my__route__lookup_8h_ae78aeb8a794e89cc7fc9d40e7a7d2ec4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_a6422881caacaa117761404a9a906ebf9}\label{my__route__lookup_8h_a6422881caacaa117761404a9a906ebf9}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!ReadIPs@{ReadIPs}}
+\index{ReadIPs@{ReadIPs}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{ReadIPs()}{ReadIPs()}}
+{\footnotesize\ttfamily void Read\+I\+Ps (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Bucle encargado de la lectura de I\+Ps del input. 
+
+Primero reservamos memoria para las variables I\+P\+Address, mascara, Interfaz\+Salida. El bucle while\+: \begin{DoxyVerb}while(ErrorCheck == 0){  
+  AddRoute(&AllTables, IPAddress,mascara,InterfazSalida);
+  ErrorCheck = readFIBLine(IPAddress,mascara,InterfazSalida);
+}\end{DoxyVerb}
+ Añade una ruta a las tablas y le la siguiente lina, siempre que no haya error (error de lectura o E\+OF) Por ultimo liberamos la memoria de las variables temporales 
+
+Definición en la línea 157 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=237pt]{my__route__lookup_8h_a6422881caacaa117761404a9a906ebf9_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=207pt]{my__route__lookup_8h_a6422881caacaa117761404a9a906ebf9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_ae7a0d30cbdde5924d2b6572520cf4585}\label{my__route__lookup_8h_ae7a0d30cbdde5924d2b6572520cf4585}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!SetRoutes@{SetRoutes}}
+\index{SetRoutes@{SetRoutes}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{SetRoutes()}{SetRoutes()}}
+{\footnotesize\ttfamily void Set\+Routes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calcula los tiempos y imprime la informacion por pantalla. 
+
+Primero declaramos reservamos memoria para las variables temporales I\+P\+To\+Search, intf, searching\+\_\+time, accesoextra. (Usamos variables temporales ya que la información almacenada en estas sera printeada por esta misma función) -\/-\/$>$ I\+M\+P\+O\+R\+T\+A\+N\+TE\+: LiberarImportante tener en cuenta que Error\+Check viene de Read\+I\+Ps con un valor =! 0 (final del archivo que se estava leyendo) y es importante restaurar a su valor por defecto (me ha dado serios problemas este detalle)
+
+Clasico Bucle Mientaras no halla errores
+
+Leer linea e actializar Error\+Check
+
+Segunda comprobación de Error\+Check para evitar errores (Cuenta un paquete de mas asi como accesos etc)
+
+Realizamos la primera medicion del Clock como se nos indica en \mbox{\hyperlink{io_8h}{io.\+h}}
+
+Ejectuamos el acceso a la IP de la cual se quiere medir el tiempo de busqueda \begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{my__route__lookup_8c_a25ec64d7de94ddeffc4e51c90fb918a2}{Search()}}
+\end{DoxySeeAlso}
+Realizamos la segunda medicion del Clock como se nos indica en \mbox{\hyperlink{io_8h}{io.\+h}} ~\newline
+
+
+Imprimimos los datos obtenidos por pantalla usando la estructura IP;I\+NT;Tiempo usando el metodo dado
+
+Aumentamos las variables en funcion de lo obtenido en Search y almacenamos en las variables globales, que luego sera printadas \begin{DoxySeeAlso}{Ver también}
+\mbox{\hyperlink{io_8h_a3ed842258dba090f811c13f5d073e5f8}{print\+Summary}}($\ast$\+Paquetes\+OK, ($\ast$\+Accesos / $\ast$\+Paquetes\+OK), ($\ast$\+Tiempo\+Total / $\ast$\+Paquetes\+OK)
+\end{DoxySeeAlso}
+Liberamos la memoria de las variable (S\+O\+LO L\+AS T\+E\+M\+P\+O\+R\+A\+L\+ES)
+
+Definición en la línea 199 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas para esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{my__route__lookup_8h_ae7a0d30cbdde5924d2b6572520cf4585_cgraph}
+\end{center}
+\end{figure}
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{my__route__lookup_8h_ae7a0d30cbdde5924d2b6572520cf4585_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{my__route__lookup_8h_a4027bb0ee228612717529e4d7177424a}\label{my__route__lookup_8h_a4027bb0ee228612717529e4d7177424a}} 
+\index{my\_route\_lookup.h@{my\_route\_lookup.h}!AddRoute@{AddRoute}}
+\index{AddRoute@{AddRoute}!my\_route\_lookup.h@{my\_route\_lookup.h}}
+\doxysubsubsection{\texorpdfstring{AddRoute()}{AddRoute()}}
+{\footnotesize\ttfamily void Add\+Route (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{my__route__lookup_8h_ab0481ad02246a7ccc6a7249eabc7fac8}{Tablas}} $\ast$}]{All\+Tables,  }\item[{uint32\+\_\+t $\ast$}]{I\+P\+To\+Add,  }\item[{int $\ast$}]{mascara,  }\item[{int $\ast$}]{intf3 }\end{DoxyParamCaption})}
+
+
+
+R\+E\+V\+I\+S\+AR Añade la ruta a las tablas. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em tablas} & Estructura en la cual se realiza la inserción \\
+\hline
+{\em I\+P\+To\+Add} & IP a insertar \\
+\hline
+{\em mascara} & de la ip \\
+\hline
+{\em intf3} & Interfaz de salida que se genera\\
+\hline
+\end{DoxyParams}
+Esta función, como su nombre indica, se encarga de añadir una determinada IP a nuestras tablas. Esto propone 2 casos\+: Al igual que en la función \mbox{\hyperlink{my__route__lookup_8c_a25ec64d7de94ddeffc4e51c90fb918a2}{Search()}}, debemos saber si hemos de insertar en la 1ª o 2ª Tabla (main o aux) Sin embargo, a diferencia que en search obtenemos la mascara como argumento, por lo tanto, si esta en menor o igual que 24, sera la tabla 1En la tabla main\+:
+
+Calculamos cuantas I\+Ps hemos de modificar su interfaz para la nueva mascara S\+I\+E\+M\+P\+RE sera total de I\+Ps menos la mascara ~\newline
+
+
+Un for sencillo que recorre la tabla de 0 hasta el valor de I\+Ps\+A\+Modificar
+
+Realizamos un shift sobre la IP para obtener solo los bits que importan (24 bits ya que como hemos declarado en el if, la mascara es menor que 24, por lo tanto nos da igual que venga despues del bit 24) y asignamos la interfaz
+
+De la misma manera que en search(), comprobamos si existe una tabla aux
+
+Calculamos cuantas I\+Ps hemos de modificar su interfaz para la nueva mascara S\+I\+E\+M\+P\+RE sera total de I\+Ps (ahora es 2$^\wedge$32 ya que estamos en la tabla auxiliar, que es mas grande que la main pero no estatica)menos la mascara ~\newline
+
+
+No existe aux
+
+En el caso de no existir, hemos de crearla! No olvidar usar M\+E\+M\+O\+R\+IA D\+I\+N\+A\+M\+I\+CA
+
+El tamaño del realloc lo calculamos como el nuevo bloque (256)+ los bloques ya existentes (256$\ast$existensiones)
+
+Con un for de 0 a 255 (256 posiciones) recorremos la nueva extension de la tabla rellenándola
+
+Rellenamos los espacios creados con la interfaz correspondiente
+
+Se puede simplificar?
+
+Es importante indicar en la tabla principal que ya hemos creado una extension de la tabla auxiliar. Al principio no hacia esto, y se generaban extensiones de la tabla por cada IP resultando en un absoluto gasto de memoria
+
+Para realizar este cambio hemos utilizado operadores bitwise. So we use bit 15 as a flag \begin{DoxySeeAlso}{Ver también}
+Check \href{https://stackoverflow.com/questions/37948920/changing-the-most-significant-bit-in-a-int16}{\texttt{ https\+://stackoverflow.\+com/questions/37948920/changing-\/the-\/most-\/significant-\/bit-\/in-\/a-\/int16}} for a detailed example ~\newline
+
+\end{DoxySeeAlso}
+al igual que lo indicamos en la tabla principal, tambien aumentamos en uno el numero de extensiones
+
+Si se aumenta el valor antes de cambiarlo en la tabla, resulta en error
+
+Rellenamos los espacios creado con la interfaz
+
+Simplificar ?
+
+Definición en la línea 237 del archivo my\+\_\+route\+\_\+lookup.\+c.
+
+Gráfico de llamadas a esta función\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{my__route__lookup_8h_a4027bb0ee228612717529e4d7177424a_icgraph}
+\end{center}
+\end{figure}

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.17"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Route Lookup: Fichero Fuente student_source/my_route_lookup.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Route Lookup
+   &#160;<span id="projectnumber">100384036</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('my__route__lookup_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">my_route_lookup.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="my__route__lookup_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="struct_kit_tablas.html">    8</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct_kit_tablas.html">KitTablas</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="struct_kit_tablas.html#a45c29d647033d4534a4880f218e8697e">    9</a></span>&#160; <span class="keywordtype">short</span> *<a class="code" href="struct_kit_tablas.html#a45c29d647033d4534a4880f218e8697e">main_table</a>;     </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="struct_kit_tablas.html#afd5bbf79017433851588b7d95931eee9">   10</a></span>&#160; <span class="keywordtype">short</span> *<a class="code" href="struct_kit_tablas.html#afd5bbf79017433851588b7d95931eee9">aux_table</a>;      </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="struct_kit_tablas.html#af4f6b7edad4d58d5b32e4e233a1cb7b3">   11</a></span>&#160; <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_kit_tablas.html#af4f6b7edad4d58d5b32e4e233a1cb7b3">extensionesaux</a>; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="struct_kit_tablas.html#abcc023e8fbc45120bad25f59511e46d5">   12</a></span>&#160; <span class="keywordtype">long</span> <a class="code" href="struct_kit_tablas.html#abcc023e8fbc45120bad25f59511e46d5">ip_index</a>;     </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;} <a class="code" href="my__route__lookup_8h.html#ab0481ad02246a7ccc6a7249eabc7fac8">Tablas</a> ;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#af06d8c52ae4f34c8d204afa884cd80b8">VarInit</a>();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#ab0d915b11e7a3802d9a60edb7c218d62">TablasInit</a>(<a class="code" href="struct_kit_tablas.html">Tablas</a>* tabla);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#ad96bd166f3f6d7ce5de7a2a8f505c43f">DeleteAllTables</a>(<a class="code" href="struct_kit_tablas.html">Tablas</a>* tablas);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#ae78aeb8a794e89cc7fc9d40e7a7d2ec4">Search</a>(<span class="keywordtype">int</span> *accesoextra, <a class="code" href="struct_kit_tablas.html">Tablas</a>* tablas, uint32_t *IPToSearch,  <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> *intf2);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#a6422881caacaa117761404a9a906ebf9">ReadIPs</a>();</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#ae7a0d30cbdde5924d2b6572520cf4585">SetRoutes</a>();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">void</span> <a class="code" href="my__route__lookup_8h.html#a4027bb0ee228612717529e4d7177424a">AddRoute</a>(<a class="code" href="struct_kit_tablas.html">Tablas</a>* tablas, uint32_t *IPToAdd, <span class="keywordtype">int</span> *<a class="code" href="my__route__lookup_8c.html#a4efb9ef8062cf93ee03645c3e759c9ae">mascara</a>, <span class="keywordtype">int</span> *intf3);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="amy__route__lookup_8h_html_ae78aeb8a794e89cc7fc9d40e7a7d2ec4"><div class="ttname"><a href="my__route__lookup_8h.html#ae78aeb8a794e89cc7fc9d40e7a7d2ec4">Search</a></div><div class="ttdeci">void Search(int *accesoextra, Tablas *tablas, uint32_t *IPToSearch, unsigned int *intf2)</div><div class="ttdoc">REVISAR.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00179">my_route_lookup.c:179</a></div></div>
+<div class="ttc" id="astruct_kit_tablas_html_af4f6b7edad4d58d5b32e4e233a1cb7b3"><div class="ttname"><a href="struct_kit_tablas.html#af4f6b7edad4d58d5b32e4e233a1cb7b3">KitTablas::extensionesaux</a></div><div class="ttdeci">unsigned int extensionesaux</div><div class="ttdoc">indice auxiliar</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8h_source.html#l00011">my_route_lookup.h:11</a></div></div>
+<div class="ttc" id="astruct_kit_tablas_html_a45c29d647033d4534a4880f218e8697e"><div class="ttname"><a href="struct_kit_tablas.html#a45c29d647033d4534a4880f218e8697e">KitTablas::main_table</a></div><div class="ttdeci">short * main_table</div><div class="ttdoc">Tabla principal (Tamaño fijo 2^24)</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8h_source.html#l00009">my_route_lookup.h:9</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_ad96bd166f3f6d7ce5de7a2a8f505c43f"><div class="ttname"><a href="my__route__lookup_8h.html#ad96bd166f3f6d7ce5de7a2a8f505c43f">DeleteAllTables</a></div><div class="ttdeci">void DeleteAllTables(Tablas *tablas)</div><div class="ttdoc">Elimina y libera las tablas.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00138">my_route_lookup.c:138</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_ae7a0d30cbdde5924d2b6572520cf4585"><div class="ttname"><a href="my__route__lookup_8h.html#ae7a0d30cbdde5924d2b6572520cf4585">SetRoutes</a></div><div class="ttdeci">void SetRoutes()</div><div class="ttdoc">Calcula los tiempos y imprime la informacion por pantalla.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00199">my_route_lookup.c:199</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_a6422881caacaa117761404a9a906ebf9"><div class="ttname"><a href="my__route__lookup_8h.html#a6422881caacaa117761404a9a906ebf9">ReadIPs</a></div><div class="ttdeci">void ReadIPs()</div><div class="ttdoc">Bucle encargado de la lectura de IPs del input.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00157">my_route_lookup.c:157</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_ab0481ad02246a7ccc6a7249eabc7fac8"><div class="ttname"><a href="my__route__lookup_8h.html#ab0481ad02246a7ccc6a7249eabc7fac8">Tablas</a></div><div class="ttdeci">struct KitTablas Tablas</div><div class="ttdoc">Estructura que almacena las 2 tablas principales, así como 2 indices.</div></div>
+<div class="ttc" id="amy__route__lookup_8c_html_a4efb9ef8062cf93ee03645c3e759c9ae"><div class="ttname"><a href="my__route__lookup_8c.html#a4efb9ef8062cf93ee03645c3e759c9ae">mascara</a></div><div class="ttdeci">int * mascara</div><div class="ttdoc">Variable de Prefijo.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00061">my_route_lookup.c:61</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_af06d8c52ae4f34c8d204afa884cd80b8"><div class="ttname"><a href="my__route__lookup_8h.html#af06d8c52ae4f34c8d204afa884cd80b8">VarInit</a></div><div class="ttdeci">void VarInit()</div><div class="ttdoc">Inicializa las variables globales.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00109">my_route_lookup.c:109</a></div></div>
+<div class="ttc" id="astruct_kit_tablas_html"><div class="ttname"><a href="struct_kit_tablas.html">KitTablas</a></div><div class="ttdoc">Estructura que almacena las 2 tablas principales, así como 2 indices.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8h_source.html#l00008">my_route_lookup.h:8</a></div></div>
+<div class="ttc" id="astruct_kit_tablas_html_abcc023e8fbc45120bad25f59511e46d5"><div class="ttname"><a href="struct_kit_tablas.html#abcc023e8fbc45120bad25f59511e46d5">KitTablas::ip_index</a></div><div class="ttdeci">long ip_index</div><div class="ttdoc">Tabla de IPs.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8h_source.html#l00012">my_route_lookup.h:12</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_a4027bb0ee228612717529e4d7177424a"><div class="ttname"><a href="my__route__lookup_8h.html#a4027bb0ee228612717529e4d7177424a">AddRoute</a></div><div class="ttdeci">void AddRoute(Tablas *tablas, uint32_t *IPToAdd, int *mascara, int *intf3)</div><div class="ttdoc">REVISAR Añade la ruta a las tablas.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00237">my_route_lookup.c:237</a></div></div>
+<div class="ttc" id="amy__route__lookup_8h_html_ab0d915b11e7a3802d9a60edb7c218d62"><div class="ttname"><a href="my__route__lookup_8h.html#ab0d915b11e7a3802d9a60edb7c218d62">TablasInit</a></div><div class="ttdeci">void TablasInit(Tablas *tabla)</div><div class="ttdoc">Inicializa las tablas.</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8c_source.html#l00126">my_route_lookup.c:126</a></div></div>
+<div class="ttc" id="astruct_kit_tablas_html_afd5bbf79017433851588b7d95931eee9"><div class="ttname"><a href="struct_kit_tablas.html#afd5bbf79017433851588b7d95931eee9">KitTablas::aux_table</a></div><div class="ttdeci">short * aux_table</div><div class="ttdoc">Tabla auxiliar (Tamaño dinámico)</div><div class="ttdef"><b>Definition:</b> <a href="my__route__lookup_8h_source.html#l00010">my_route_lookup.h:10</a></div></div>
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_568230800e6e26f655c3e02e84ac0b04.html">student_source</a></li><li class="navelem"><a class="el" href="my__route__lookup_8h.html">my_route_lookup.h</a></li>
+    <li class="footer">Generado por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
+  </ul>
+</div>
+</body>
+</html>
